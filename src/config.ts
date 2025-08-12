@@ -11,5 +11,5 @@ export const CONFIG = {
   REPO_NAME: import.meta.env.VITE_REPO_NAME || 'https://github.com/KD7JHD/SPA-Infinite-Canvas.git',
   DEFAULT_BRANCH: import.meta.env.VITE_DEFAULT_BRANCH || 'DEV',
   // n8n webhook URL
-  N8N_WEBHOOK_URL: import.meta.env.VITE_N8N_WEBHOOK_URL || 'https://kd7jhd.app.n8n.cloud/webhook-test/dynamic-form',
+  N8N_WEBHOOK_URL: import.meta.env.VITE_N8N_WEBHOOK_URL || 'https://kd7jhd.app.n8n.cloud/webhook/dynamic-form',
 }
