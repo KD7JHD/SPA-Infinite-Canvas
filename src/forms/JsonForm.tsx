@@ -4,7 +4,7 @@ import Ajv2020 from 'ajv/dist/2020'
 import { useMemo } from 'react'
 
 export function JsonForm({ schema, data, onChange }: { schema: any; data: any; onChange: (data: any) => void }) {
-  const ajv = useMemo(() => new Ajv2020({ allErrors: true, strictSchema: false }), [])
+  const ajv = useMemo(() => new Ajv2020({ allErrors: false, strictSchema: false }), [])
   return (
     <div className="p-2">
       <JsonForms
